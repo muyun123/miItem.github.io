@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./lib/swiper-master/package/css/swiper.min.css">
+    <script src="./lib/jquery-3.4.1/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+</head>
+
+<body>
+    <div id="miyoupin">
+        <header></header>
+        <div class="content">
+            <!-- 导航轮播图 -->
+            <div class="nav_banner">
+                <div class="nav_left">
+                    <ul class="one_nav_bar">
+                        <li><a href="#">有品推荐</a>&nbsp;/&nbsp;<a href="#">家用电器</a></li>
+                        <li><a href="#">智能家庭</a>&nbsp;/&nbsp;<a href="#">电视影音</a></li>
+                        <li><a href="#">家具家装</a>&nbsp;/&nbsp;<a href="#">居家餐厨</a></li>
+                        <li><a href="#">运动户外</a>&nbsp;/&nbsp;<a href="#">出行车品</a></li>
+                        <li><a href="#">手机电脑</a>&nbsp;/&nbsp;<a href="#">数码周边</a></li>
+                        <li><a href="#">服装配饰</a>&nbsp;/&nbsp;<a href="#">鞋靴箱包</a></li>
+                        <li><a href="#">日用文创</a>&nbsp;/&nbsp;<a href="#">美食酒饮</a></li>
+                        <li><a href="#">美妆个护</a>&nbsp;/&nbsp;<a href="#">健康保健</a></li>
+                        <li><a href="#">母婴亲子</a>&nbsp;/&nbsp;<a href="#">宠物生活</a></li>
+                    </ul>
+                    <div class="side_nav_bar">
+                        <!-- <dl class="two_nav_bar clearfix">
+                            <dt>有品推荐</dt>
+                            <dd><img src="https://img.youpin.mi-img.com/miio_album_pics/e3c2e6ebed890f23ecb93e163dfe322e.png?w=800&h=800"
+                                    alt=""><a href="#">销量榜单</a></dd>
+                            <dd><img src="https://img.youpin.mi-img.com/miio_album_pics/94394921a4be290a500e0250caa9f8a3.png?w=800&h=800"
+                                    alt=""><a href="#">米粉热搜</a></dd>
+                            <dd><img src="https://img.youpin.mi-img.com/miio_album_pics/8e52f5b88b2244900d90939508b6153f.png?w=800&h=800"
+                                    alt=""><a href="#">清凉季</a></dd>
+                            <dd><img src="https://img.youpin.mi-img.com/miio_album_pics/1076913edcd1f059373b50ec8db4be11.png?w=800&h=800"
+                                    alt=""><a href="#">女神最爱</a></dd>
+                            <dd><img src="https://img.youpin.mi-img.com/miio_album_pics/0d4009c02562f3a38a6abe8a29240963.png?w=800&h=800"
+                                    alt=""><a href="#">男士精选</a></dd>
+                            <dd><img src="https://img.youpin.mi-img.com/miio_album_pics/bb0c220897fbbb2aa3b0212fc54cec73.jpg?w=480&h=480"
+                                    alt=""><a href="#">婴童精选</a></dd>
+                            <dd><img src="https://img.youpin.mi-img.com/miio_album_pics/42bbb1b4182810bb14f04761e1116efb.png?w=800&h=800"
+                                    alt=""><a href="#">DLAB</a></dd>
+                            <dd><img src="https://img.youpin.mi-img.com/miio_album_pics/06c6dc3c5b157248e23c85de0099884f.png?w=800&h=800"
+                                    alt=""><a href="#">小爱专区</a></dd>
+                            <dd><img src="https://img.youpin.mi-img.com/miio_album_pics/ffc06b2548bb83678e1b827e20aebd33.png?w=800&h=800"
+                                    alt=""><a href="#">品质生活</a></dd>
+                            <dd><img src="https://img.youpin.mi-img.com/miio_album_pics/4fcfc7025ce5f2dc9454c1a245fc54d5.png?w=800&h=800"
+                                    alt=""><a href="#">美酒佳酿</a></dd>
+                            <dd><img src="https://img.youpin.mi-img.com/miio_album_pics/4be80e7c1cb8411279d4774b2da6f948.png?w=800&h=800"
+                                    alt=""><a href="#">运动健身</a></dd>
+                            <dd><img src="https://img.youpin.mi-img.com/miio_album_pics/5bdb2b11d1216d372895bbe297ebc34d.png?w=480&h=480"
+                                    alt=""><a href="#">健康生活</a></dd>
+                        </dl>
+                        <dl class="two_nav_bar clearfix">
+                            <dt>有品推荐</dt>
+                            <dd><img src="https://img.youpin.mi-img.com/miio_album_pics/e3c2e6ebed890f23ecb93e163dfe322e.png?w=800&h=800"
+                                    alt=""><a href="#">销量榜单</a></dd>
+                            <dd><img src="https://img.youpin.mi-img.com/miio_album_pics/94394921a4be290a500e0250caa9f8a3.png?w=800&h=800"
+                                    alt=""><a href="#">米粉热搜</a></dd>
+                            <dd><img src="https://img.youpin.mi-img.com/miio_album_pics/8e52f5b88b2244900d90939508b6153f.png?w=800&h=800"
+                                    alt=""><a href="#">清凉季</a></dd>
+                            <dd><img src="https://img.youpin.mi-img.com/miio_album_pics/1076913edcd1f059373b50ec8db4be11.png?w=800&h=800"
+                                    alt=""><a href="#">女神最爱</a></dd>
+                            <dd><img src="https://img.youpin.mi-img.com/miio_album_pics/0d4009c02562f3a38a6abe8a29240963.png?w=800&h=800"
+                                    alt=""><a href="#">男士精选</a></dd>
+                            <dd><img src="https://img.youpin.mi-img.com/miio_album_pics/bb0c220897fbbb2aa3b0212fc54cec73.jpg?w=480&h=480"
+                                    alt=""><a href="#">婴童精选</a></dd>
+                            <dd><img src="https://img.youpin.mi-img.com/miio_album_pics/42bbb1b4182810bb14f04761e1116efb.png?w=800&h=800"
+                                    alt=""><a href="#">DLAB</a></dd>
+                            <dd><img src="https://img.youpin.mi-img.com/miio_album_pics/06c6dc3c5b157248e23c85de0099884f.png?w=800&h=800"
+                                    alt=""><a href="#">小爱专区</a></dd>
+                            <dd><img src="https://img.youpin.mi-img.com/miio_album_pics/ffc06b2548bb83678e1b827e20aebd33.png?w=800&h=800"
+                                    alt=""><a href="#">品质生活</a></dd>
+                            <dd><img src="https://img.youpin.mi-img.com/miio_album_pics/4fcfc7025ce5f2dc9454c1a245fc54d5.png?w=800&h=800"
+                                    alt=""><a href="#">美酒佳酿</a></dd>
+                            <dd><img src="https://img.youpin.mi-img.com/miio_album_pics/4be80e7c1cb8411279d4774b2da6f948.png?w=800&h=800"
+                                    alt=""><a href="#">运动健身</a></dd>
+                            <dd><img src="https://img.youpin.mi-img.com/miio_album_pics/5bdb2b11d1216d372895bbe297ebc34d.png?w=480&h=480"
+                                    alt=""><a href="#">健康生活</a></dd>
+                        </dl> -->
+                    </div>
+                </div>
+
+                <div class="scroll_img_wrap swiper-container" id="swiper1">
+                    <div class="shuffl_figure swiper-wrapper">
+                        <a href="#" class="swiper-slide"><img src="./img/banner1.jpg" alt=""></a>
+                        <a href="#" class="swiper-slide"><img src="./img/banner2.jpg" alt=""></a>
+                        <a href="#" class="swiper-slide"><img src="./img/banner3.jpg" alt=""></a>
+                        <a href="#" class="swiper-slide"><img src="./img/banner4.jpg" alt=""></a>
+                        <a href="#" class="swiper-slide"><img src="./img/banner5.jpg" alt=""></a>
+                        <a href="#" class="swiper-slide"><img src="./img/banner6.jpg" alt=""></a>
+                        <a href="#" class="swiper-slide"><img src="./img/banner7.jpg" alt=""></a>
+                    </div>
+                    <div class="next swiper-button-prev"></div>
+                    <div class="prev swiper-button-next"></div>
+                    <div class="banner_light swiper-pagination">
+                        <!-- <span class="active"></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span> -->
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 助力 新品 -->
+            <div class="day_new_time">
+                <ul class="list_nav_bar">
+                    <li><a href="#">
+                            <div class="img_contener"><img src="./img/01hea.png" alt=""></div>
+                            <span>每日新品</span>
+                        </a>
+                    </li>
+                    <li><a href="#">
+                            <div class="img_contener"><img src="./img/02hea.png" alt=""></div>
+                            <span>小米众筹</span>
+                        </a>
+                    </li>
+                    <li><a href="#">
+                            <div class="img_contener"><img src="./img/03hea.png" alt=""></div>
+
+                            <span>限时抢购</span>
+                        </a>
+                    </li>
+                    <li><a href="#">
+                            <div class="img_contener"><img src="./img/04hea.png" alt=""></div>
+                            <span>热销榜单</span>
+                        </a>
+                    </li>
+                    <li style="margin-right: 0"><a href="#">
+                            <div class="img_contener"><img src="./img/05hea.png" alt=""></div>
+                            <span>助力免单</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 小米众筹 -->
+            <div class="main_cotenter_bar">
+                <div class="h_top_bar">
+                    <div class="content_top_left">
+                        <h2>小米众筹</h2>
+                        <span>永远好奇 永远年轻</span>
+                    </div>
+                    <div class="content_top_right">
+                        <a href="#">更多</a>
+                        <i class="gengduo"></i>
+                    </div>
+                </div>
+                <div class="c_contenter_are">
+                    <ul class="list_item">
+                        <li class="item-0"><a href="#">
+                                <div class="item_inner">
+                                    <div class="hot_good_item">
+                                        <p class="pro-info">Pawbby智能宠物零食机</p>
+                                        <p class="pro_desc">投食互动，实时高清影像，双向语音</p>
+                                        <p class="pro_price"><span>￥</span><span>499</span></p>
+                                    </div>
+                                    <div class="item_img">
+                                        <img src="https://img.youpin.mi-img.com/shopmain/6d490c67abcdd76501de53b3826407d3.png?w=800&h=800"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <div class="b_hot_baifen">
+                                    <div class="hot_zhichi">
+                                        <span>3456</span>人支持
+                                    </div>
+                                    <div class="hot_iconimg">
+                                        <span>火</span>
+                                    </div>
+                                    <div class="num_bafenbi">
+                                        <span>412</span>%
+                                    </div>
+                                </div>
+                            </a></li>
+                        <li class="item-1"><a href="#">
+                                <div class="item_inner">
+                                    <div class="hot_good_item">
+                                        <p class="pro-info">小魔豆AI百变机器人</p>
+                                        <!-- <p class="pro_desc">投食互动，实时高清影像，双向语音</p> -->
+                                        <p class="pro_price"><span>￥</span><span>299</span></p>
+                                    </div>
+                                    <div class="item_img">
+                                        <img src="https://img.youpin.mi-img.com/shopmain/f0562735a7b84bd248053d936b325f2f.png?w=800&h=800"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <div class="b_hot_baifen">
+                                    <div class="hot_zhichi">
+                                        <span>3456</span>人支持
+                                    </div>
+                                    <div class="hot_iconimg">
+                                        <span>火</span>
+                                    </div>
+                                    <div class="num_bafenbi">
+                                        <span>412</span>%
+                                    </div>
+                                </div>
+                            </a></li>
+                        <li class="item-2"><a href="#">
+                                <div class="item_inner">
+                                    <div class="hot_good_item">
+                                        <p class="pro-info">双重防蓝光智能变色眼镜</p>
+                                        <!-- <p class="pro_desc">投食互动，实时高清影像，双向语音</p> -->
+                                        <p class="pro_price"><span>￥</span><span>199</span></p>
+                                    </div>
+                                    <div class="item_img">
+                                        <img src="https://img.youpin.mi-img.com/shopmain/31a1dc07e7d00ad7703f8b43baee107c.png?w=800&h=800"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <div class="b_hot_baifen">
+                                    <div class="hot_zhichi">
+                                        <span>3456</span>人支持
+                                    </div>
+                                    <div class="hot_iconimg">
+                                        <span>火</span>
+                                    </div>
+                                    <div class="num_bafenbi">
+                                        <span>412</span>%
+                                    </div>
+                                </div>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 限时购 -->
+            <div class="main_cotenter_bar clearfix">
+                <div class="h_top_bar">
+                    <div class="content_top_left">
+                        <h2>限时购</h2>
+                        <div class="time_down">
+                            <i class="alam_color"></i>
+                            <span class="target_time">12:00场</span>
+                            <span class="time_down_star">
+                                <span class="time_d_home hour">00</span>
+                                <span class="time_colon">:</span>
+                                <span class="time_d_home mintus">00</span>
+                                <span class="time_colon">:</span>
+                                <span class="time_d_home second">01</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content_top_right">
+                        <a href="#">更多</a>
+                        <i class="gengduo"></i>
+                    </div>
+                </div>
+                <div class="c_contenter_are scroll_img_wrap swiper-container " id="swiper2">
+                    <ul class="list_item list_itme_b clearfix swiper-wrapper">
+                        <!-- <li><a href="">
+                                <div class="small_img_item"><img
+                                        src="https://img.youpin.mi-img.com/800_pic/381891717bddbb70b3f11d3759b3516c.jpg"
+                                        alt=""></div>
+                                <div class="title_price">
+                                    <p class="pro_info">男士拼接针织长裤</p>
+                                    <p class="pro_price">
+                                        <span>￥</span>
+                                        <span class="now_price">1000</span>
+                                        <span class="m_up">起</span>
+                                        <span class="old_price">
+                                            <span>￥</span>
+                                            <span class="old_num">1200</span>
+                                        </span>
+
+                                    </p>
+                                </div>
+                            </a></li> -->
+                    </ul>
+                    <div class="next swiper-button-prev"></div>
+                    <div class="prev swiper-button-next my-button-disabled"></div>
+                </div>
+            </div>
+            <!-- 每日新品 -->
+            <div class="main_cotenter_bar e_new_goods clearfix">
+                <div class="h_top_bar">
+                    <div class="content_top_left">
+                        <h2>每日新品</h2>
+                        <span>每天10点 惊喜不断</span>
+                    </div>
+                    <div class="content_top_right">
+                        <a href="#">更多</a>
+                        <i class="gengduo"></i>
+                    </div>
+                </div>
+                <div class="c_contenter_are scroll_img_wrap swiper-container swiper-container1">
+                    <ul class="list_item list_itme_c clearfix swiper-wrapper">
+                        <!-- <li><a href="">
+                                <div class="small_img_item"><img
+                                        src="https://img.youpin.mi-img.com/800_pic/381891717bddbb70b3f11d3759b3516c.jpg"
+                                        alt=""></div>
+                                <div class="title_price">
+                                    <p class="pro_info">男士拼接针织长裤</p>
+                                    <p class="pro_title">90%白鸭绒，15+cm蓬松度，轻量...</p>
+                                    <p class="pro_price">
+                                        <span>￥</span>
+                                        <span class="now_price">1000</span>
+                                        <span class="m_up">起</span>
+                                    </p>
+                                </div>
+                                <div class="color_sel">
+                                    2色可选
+                                </div>
+                            </a></li> -->
+                    </ul>
+                    <div class="next swiper-button-prev"></div>
+                    <div class="prev swiper-button-next my-button-disabled"></div>
+                </div>
+            </div>
+            <!-- 热门 -->
+            <div class="main_cotenter_bar e_hot_goods clearfix">
+                <div class="h_top_bar">
+                    <div class="content_top_left">
+                        <h2>热门</h2>
+                        <span>感动人心 价格厚道</span>
+                    </div>
+                    <div class="content_top_right">
+                        <a href="#">更多</a>
+                        <i class="gengduo"></i>
+                    </div>
+                </div>
+                <div class="c_contenter_are scroll_img_wrap swiper-container swiper-container2">
+                    <ul class="list_item list_itme_c clearfix swiper-wrapper">
+
+                    </ul>
+                    <div class="next swiper-button-prev"></div>
+                    <div class="prev swiper-button-next my-button-disabled"></div>
+                </div>
+            </div>
+            <!-- 专属推荐 -->
+            <div class="main_cotenter_bar re_commend clearfix ">
+                <div class="h_top_bar">
+                    <div class="content_top_left">
+                        <h2>专属推荐</h2>
+                    </div>
+                </div>
+                <div class="c_contenter_are scroll_img_wrap ">
+                    <ul class="list_item list_itme_c list_item_tuijian">
+                        <!-- <li><a href="">
+                                <div class="small_img_item"><img
+                                        src="https://img.youpin.mi-img.com/shopmain/b54a55a8106ba88dd13aea17443b9060.png@base@tag=imgScale&F=webp?w=800&h=800"
+                                        alt=""></div>
+                                <div class="small_img_intro">
+                                    <p class="pro_title">90%白鸭绒，15+cm蓬松度轻量...</p>
+                                </div>
+                                <div class="title_price">
+                                    <p class="m-goods-common-tag-con">
+                                        <span class="common-tag">加价购</span>
+                                        <span class="common-tag">满赠</span>
+                                    </p>
+                                    <p class="pro_info">男士拼接针织长裤</p>
+
+                                    <p class="pro_price">
+                                        <span>￥</span>
+                                        <span class="now_price">1000</span>
+                                        <span class="m_up">起</span>
+                                    </p>
+                                </div>
+                                <div class="color_sel">
+                                    2色可选
+                                </div>
+                            </a></li> -->
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <footer></footer>
+    </div>
+</body>
+<script src="./lib/swiper-master/package/js/swiper.min.js"></script>
+<script src="./js/index.js"></script>
+<script src="./js/common.js"></script>
+
+</html>
